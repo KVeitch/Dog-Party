@@ -6,11 +6,13 @@ Dog Party 2.0 is a project to create an HTML document and position the elements 
 
 <details><summary>Click to show comp 1.</summary>
 Comp1:
+  
 ![](http://frontend.turing.io/assets/images/projects/zen-garden/zen-garden-01.jpg)
 </details>
 
 <details><summary><Click to show comp 2.</summary>
 Comp 2
+  
 ![](http://frontend.turing.io/assets/images/projects/zen-garden/zen-garden-02.jpg)
 </details>
 
