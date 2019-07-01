@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+/* Declare variables to control menu and inline block widths */
+  --contentWidth: 84%;
+  --menuWidth: 16%;
+}
+
+html {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto Slab; 
+  font-size: 1em ;
+}
+
+a {
+  color: #000000;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.header {
+  background-color: #9a969c;
+  border: 3px solid #3e3544;
+  height: 100%;
+  position: fixed;
+  width: var(--menuWidth);
+}
+
+.header-small-logo {
+  display: block;
+  height: 180px;
+  margin: 30px auto 0px auto;
+  width: 180px;
+}
+
+.main-nav {
+  height: 100%;
+}
+
+ul {
+  padding: 0px;
+}
+
+.main-nav-list {
+  font-color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 60px 0px 0px 10%;
+}
+
+.main-nav-link {
+  text-decoration: none;
+}
+
+#top-dog {
+  border-radius: 50%;
+  border: 10px solid #9a969c;
+  height: 450px;
+  margin: 25px 45px;
+  width: 450px;
+}
+
+legend h3 {
+  color:#ffffff;
+}
+
+.name-form {
+  display: inline-block;
+}
+
+.main {
+  background-color: #3e3544;
+  height: 500px;
+  position: relative;
+  left: var(--menuWidth);
+  width: var(--contentWidth);
+}
+
+.main-header {
+position: absolute;
+left: 50%;
+top: 25% ;
+}
+
+.name-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 40%;
+}
+
+.dog-name {
+  font-weight: bold;
+}
+
+.dog-input {
+  height: 50px;
+  margin: 0px 0px 15px 0px;
+  width: 100%;
+}
+
+.form-button {
+  background-color: #9a969c;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 22px;
+  height: 50px;
+  margin: 15px 0px 0px 0px;
+  width: 100%;
+}
+
+.portrait {
+  border-radius: 50%;
+  border: 5px solid #9a969c;
+  height: 240px;
+  margin:20px auto;
+  width: 240px;
+}
+
+.content-holder {
+  padding: 0px 70px;
+}
+
+.inline {
+  border-bottom: 2px solid #9a969c;
+  height: 380px;
+  padding-top: 30px;
+  position: relative;
+  left: var(--menuWidth);
+  width: var(--contentWidth);
+}
+
+button {
+  background-color: #3E3544;
+  border-radius: 2px 2px 2px 2px;
+  color: #ffffff;
+  font-size: 16px;
+  height: 60px;
+  position: absolute;
+  right: 0%;
+  top: 70%;
+  width: 220px;
+}
+
+.inline h2 {
+  font-size:30px;
+
+}
+
+.inline-top {
+  text-align: center;
+  width: 240px;
+}
+
+.dog-speak {
+  color: #3e3544;
+  font-size: 22px;
+  font-weight: 300;
+  position: absolute;
+  right:0%;
+  top: 25%;
+  text-align: left;
+  width: 70%;
+}
+
+#facts-from-dog {
+  border-bottom: 0;
+}
+
+.footer {
+  background-color: #3e3544;
+  height: 250px;
+  left: var(--menuWidth); 
+  padding: 50px 65px 0px 0px;
+  position: relative;
+  width: var(--contentWidth);
+}
+
+.foot-title {
+  color: #ffffff;
+  font-size: 30px;
+  left: 50%;
+  position: absolute;
+}
+
+.media-logo {
+  height: 50px;
+  width: 50px;
+}
+
+#twitter-logo {
+position: absolute;
+right: 12%;
+top: 16%;
+}
+
+#instagram-logo {
+position: absolute;
+right: 5.5%;
+top: 16%;
+}
+
+#facebook-logo {
+position: absolute;
+right: 12%;
+top: 50%;
+}
+
+#linkedin-logo {
+position: absolute;
+right: 5.5%;
+top: 50%;
+}
