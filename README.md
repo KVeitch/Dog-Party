@@ -1,6 +1,4 @@
-# DogParty
-Dog Party 2.0 (Positioning Is Ruff)
-
+# DogParty (Positioning Is Ruff)
 
 Dog Party 2.0 is a project to create an HTML document and position the elements according to two different static comps.
 
